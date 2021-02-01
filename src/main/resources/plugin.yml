@@ -1,0 +1,11 @@
+name: BlockHat
+main: work.xeltica.craft.blockhat.Main
+version: 1.0.0
+api-version: 1.16
+commands:
+  hat:
+    aliases: [ blockhat ]
+    description: 手に持ったブロックを被る
+    permission: blockhat.use
+    permission-message: 権限が ないよ
+    usage: /hat
